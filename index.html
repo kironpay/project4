@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Logo" />
+    <nav id="nav-bar">
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#how-it-works">How It Works</a>
+      <a class="nav-link" href="#pricing">Pricing</a>
+    </nav>
+  </header>
+  <main>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Fast and reliable</li>
+        <li>Easy to use</li>
+        <li>24/7 Support</li>
+      </ul>
+    </section>
+    <section id="how-it-works">
+      <h2>How It Works</h2>
+      <div class="video-container">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Product Video" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <div class="pricing-options">
+        <div class="option">
+          <h3>Basic</h3>
+          <p>$9.99/month</p>
+        </div>
+        <div class="option">
+          <h3>Pro</h3>
+          <p>$19.99/month</p>
+        </div>
+        <div class="option">
+          <h3>Enterprise</h3>
+          <p>Contact us</p>
+        </div>
+      </div>
+    </section>
+    <section id="signup">
+      <h2>Sign Up for Updates</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <input id="email" name="email" type="email" placeholder="Enter your email address" required>
+        <input id="submit" type="submit" value="Get Started">
+      </form>
+    </section>
+  </main>
+</body>
+</html>
